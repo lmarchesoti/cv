@@ -138,3 +138,10 @@ hr {
   .contact-me-desc {
     margin-bottom: 70px;
   }
+
+  .link-attribution {
+    margin: 0 auto;
+    color: #EAF6F6;
+    font-size: 0.5rem;
+    text-decoration: none;
+  }
