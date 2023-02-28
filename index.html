@@ -1,86 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <title>Lucas' Personal Website</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+    <title>Lucas Marchesoti Franco</title>
 </head>
-
 <body>
-    <table cellspacing="20">
-        <tr>
-            <td>
-                <img src="images/foto-lucas-200.png" alt="Lucas' profile picture">
-            </td>
-            <td>
-                <h1>Lucas Marchesoti Franco</h1>
-                <p><em>Data scientist at <strong><a href="https://www.grupoboticario.com.br/">Grupo
-                                Boticário</a></strong>.</em></p>
-                <p>I am a Data Scientist and Programmer. I ❤️ Art and have a kid!</p>
-            </td>
-        </tr>
-    </table>
-    <hr>
-    <h3>Education</h3>
-    <ul>
-        <li>Bachelor's Degree in Computer Science</li>
-        <li>Master's Degree in Computer Science</li>
-    </ul>
-    <hr>
-    <h3>Work Experience</h3>
-    <table>
-        <thead>
-            <th>Dates</th>
-            <th>Work</th>
-        </thead>
-        <tbody>
-            <tr>
-                <td>2016-2019</td>
-                <td>Data Scientist at Callink</td>
-            </tr>
-            <tr>
-                <td>2019-2021</td>
-                <td>Software Developer at Callink</td>
-            </tr>
-            <tr>
-                <td>2021-</td>
-                <td>Data Scientist at Grupo Boticário</td>
-            </tr>
-        </tbody>
-    </table>
-    <hr>
-    <h3>Skills</h3>
-    <table cellspacing="10">
-        <tr>
-            <td>
-                <table>
-                    <tr>
-                        <td>Machine Learning</td>
-                        <td>⭐⭐⭐⭐⭐</td>
-                    </tr>
-                    <tr>
-                        <td>Python</td>
-                        <td>⭐⭐⭐⭐⭐</td>
-                    </tr>
-                </table>
-            </td>
-            <td>
-                <table>
-                    <tr>
-                        <td>SQL</td>
-                        <td>⭐⭐⭐⭐⭐</td>
-                    </tr>
-                    <tr>
-                        <td>Drawing</td>
-                        <td>⭐⭐</td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
-    </table>
-    <hr>
-    <a href="hobbies.html">My Hobbies</a>
-    <a href="contact.html">Contact Me</a>
-</body>
+    <div class="top-container">
+        <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+        <h1>I'm Lucas</h1>
+        <h2>a <span class="data">Data</span> Scientist.</h2>
+        <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+        <img src="images/mountain.png" alt="mountain-img">
+    </div>
 
+
+    <div class="middle-container">
+        <div class="profile">
+          <img src="images/foto-lucas-200.png" alt="Lucas' Profile Picture">
+          <h2>Hello.</h2>
+          <p><em>I'm a Data Scientist</span> at <strong><a href="https://www.grupoboticario.com.br/">Grupo
+            Boticário</a></strong>.</em> I am a Data Scientist and Programmer. I ❤️ Art and have a kid!</p>
+        </div>
+        <hr>
+        <div class="skills">
+          <h2>My Skills.</h2>
+          <div class="skill-row">
+            <img class="drawing-img" src="images/drawing.png" alt="drawing-img">
+            <h3>Drawing</h3>
+            <p>I love Art and Drawing ever since I was a kid, and I continue to hone my craft since I find it so much fun and the projects look just awesome!</p>
+          </div>
+          <div class="skill-row">
+            <img class="exercise-img" src="images/exercise.png" alt="exercise-img">
+            <h3>Physical Exercise</h3>
+            <p>I love challenging my body, it is such a great experience! My preferred activities are martial arts, swimming, running and going to the gym!</p>
+          </div>
+        </div>
+        <hr>
+        <div class="contact-me">
+          <h2>Get In Touch</h2>
+          <h3>If you love art and exercise as much as I do.</h3>
+          <p class="contact-me-desc">Wanna go for a walk or an artistic afternoon? Then come join me!</p>
+          <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
+        </div>
+      </div>
+      
+      
+      <div class="bottom-container">
+        <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+        <a class="footer-link" href="https://twitter.com/">Twitter</a>
+        <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+        <p class="copyright">© Lucas Marchesoti Franco.</p>
+        <a class="link-attribution" href="https://www.flaticon.com/free-icons/exercise" title="exercise icons">Exercise icons created by monkik - Flaticon</a>
+        <a class="link-attribution" href="https://www.flaticon.com/free-icons/draw" title="draw icons">Draw icons created by Nhor Phai - Flaticon</a>
+      </div>
+</body>
 </html>
